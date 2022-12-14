@@ -17,7 +17,7 @@ This repository stores BlockWallet's extension remote configuration. Every chang
 
 
 ### Packages
-  - Provider: Store configurations related to the injectable BlockWallet's provider to improve compatibility between the extension and the DApps. 
+  - [Provider](https://github.com/block-wallet/remote-configs/blob/main/provider/Readme.md): Store configurations related to the injectable BlockWallet's provider to improve compatibility between the extension and the DApps. 
   
 
 ### How to contribute
