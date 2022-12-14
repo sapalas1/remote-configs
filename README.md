@@ -13,13 +13,13 @@
 
 # BlockWallet - Remote Configuration
 
-This repository is meant for storing BlockWallet's extension remote configuration. Every change included here, will have direct impact on BlockWallet's extension production environment.
+This repository stores BlockWallet's extension remote configuration. Every change included here will directly impact BlockWallet's extension production environment.
 
 
 ### Packages
-  - Provider: Store configurations related to the injecetable BlockWallet's provider to improve compatibility between the extension and the DApps. 
+  - Provider: Store configurations related to the injectable BlockWallet's provider to improve compatibility between the extension and the DApps. 
   
 
 ### How to contribute
 
-In order to make changes to the configuration, you will have to submit a PR to the main branch with the desired changes you want to introduce. Every package have a brief explanation of you should proceed to introduce changes to the current configuration.
+In order to make changes to the configuration, you will have to submit a PR to the main branch with the desired changes you want to introduce. Every package contains a brief explanation of how you should proceed to introduce changes to the current configuration.
