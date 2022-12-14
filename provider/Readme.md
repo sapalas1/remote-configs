@@ -10,4 +10,7 @@ DApps may have different applications (staking, swaps, trading, and so on) divid
 Let's think about a DApp whose main page is `incompatibledapp.io` and their swaps and staking products are allocated in `swap.incompatibledapp.io` and `staking.incompatibledapp.io` respectively, and you want to add it to the `incompatible_sites.json` file. 
 You can: 
 1. Add the URL, including the subdomains forcing you to add two new lines to the file: `swap.incompatibledapp.io` and `staking.incompatibledapp.io`.
-2. Add only one line by removing the subdomain: `incompatibledapp.io`. By doing this, you will handle every new subdomain/product added to the DApp.
+2. **[Recommended]** Add only one line by removing the subdomain: `incompatibledapp.io`. By doing this, you will handle every new subdomain/product added to the DApp.
+
+You can check an example here: https://github.com/block-wallet/remote-configs/pull/4
+
